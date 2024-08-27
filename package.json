@@ -14,7 +14,6 @@
         "email": "a@a.com"
     },
     "scripts": {
-        "prepare": "husky install",
         "dev": "vite",
         "build": "tsc && vite build",
         "serve": "vite preview",
@@ -30,6 +29,7 @@
     "devDependencies": {
         "@commitlint/cli": "^19.4.0",
         "@commitlint/config-conventional": "^19.2.2",
+        "@commitlint/format": "^19.3.0",
         "@testing-library/jest-dom": "^6.4.8",
         "@testing-library/react": "^14.3.1",
         "@types/node": "^20.16.1",

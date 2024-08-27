@@ -90,7 +90,7 @@
 
 "@commitlint/format@^19.3.0":
   version "19.3.0"
-  resolved "https://registry.npmjs.org/@commitlint/format/-/format-19.3.0.tgz"
+  resolved "https://registry.yarnpkg.com/@commitlint/format/-/format-19.3.0.tgz#48dd9e6930d41eb0ca19f36159ee940c5b25d857"
   integrity sha512-luguk5/aF68HiF4H23ACAfk8qS8AHxl4LLN5oxPc24H+2+JRPsNr1OS3Gaea0CrH7PKhArBMKBz5RX9sA5NtTg==
   dependencies:
     "@commitlint/types" "^19.0.3"
