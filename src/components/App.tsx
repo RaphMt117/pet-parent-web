@@ -1,5 +1,6 @@
 import Avatar from 'components/Avatar'
 import logo from 'assets/logo.svg'
+import LandingPage from './landingPage'
 
 const randoms = [
   [1, 2],
@@ -7,15 +8,18 @@ const randoms = [
   [6, 7]
 ]
 
+// TODO: melhorar prettierrc com configs próprias
+// TODO: cores personalizadas do projeto, primária, secundária etc
 // TODO: implementar react router
 function App() {
   return (
-    <div className="relative overflow-hidden bg-white">
+    // TODO: background color
+    <div className="relative overflow-hidden bg-slate-400">
       <div className="h-screen sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-40">
         <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
           <div className="sm:max-w-lg">
             <div className="my-4">
-              <Avatar size="large" src={logo} />
+              <Avatar size="medium" src={logo} alt='logo' />
             </div>
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
               Bem Vindo!
@@ -26,9 +30,7 @@ function App() {
           </div>
           <div className="my-10">
             <a
-              // TODO: roteamento e páginas
               href="/index.html"
-              // TODO: cores personalizadas do projeto, primária, secundária etc
               className="inline-block rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-center font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-700 focus:ring-offset-2"
             >
               Comece por aqui
